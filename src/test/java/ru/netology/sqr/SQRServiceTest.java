@@ -7,9 +7,9 @@ public class SQRServiceTest {
     @Test
     public void testCalculate () {
         SQRService service = new SQRService();
-        int start = 10;
-        int end = 99;
-        int expected = 6;
+        int start = 200;
+        int end = 300;
+        int expected = 3;
 
         int actual = service.calculate(start, end);
 
